@@ -10,3 +10,10 @@ terraform {
 provider "aws" {
   region = "ap-northeast-2"
 }
+
+
+
+module "ec_module" {
+  source = "./ec2"
+}
+
